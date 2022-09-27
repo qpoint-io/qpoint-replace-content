@@ -1,4 +1,4 @@
-# qpoint-proxy
+# qpoint-replace-content
 
 A Qpoint adapter for replacing content in the response html
 
