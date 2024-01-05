@@ -5,12 +5,12 @@ A Qpoint adapter for replacing content in the response html
 ## Usage
 
 ```ts
-import Router from "@qpoint/router";
+import Endpoint from "@qpoint/endpoint";
 import proxy from "@qpoint/proxy";
 import replaceContent from "@qpoint/replace-content";
 import rewriteHtml from "@qpoint/rewrite-html";
 
-export default new Router()
+export default new Endpoint()
   // proxy to deno.land
   .use(proxy({ appUrl: "https://deno.land" }))
 

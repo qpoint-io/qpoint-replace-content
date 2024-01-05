@@ -1,4 +1,4 @@
-import { Context } from '@qpoint/router'
+import { Context } from '@qpoint/endpoint'
 import { ContentReplacer } from './content-replacer'
 
 type RewriteHtmlConfig = {
